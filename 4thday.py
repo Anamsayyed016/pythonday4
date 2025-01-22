@@ -107,25 +107,7 @@
 # Slicing examples with different data types
 
 # String slicing
-str1 = "Python Programming"
-print(str1[0:6])      # Python
-print(str1[7:])       # Programming
-print(str1[-11:-1])   # rogrammin
-print(str1[::2])      # Pto rgamn
-print(str1[::-1])     # gnimmargorP nohtyP
 
-# List slicing 
-list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(list1[0:5])     # [1, 2, 3, 4, 5]
-print(list1[::2])     # [1, 3, 5, 7, 9]
-print(list1[2:7:2])   # [3, 5, 7]
-print(list1[::-1])    # [9, 8, 7, 6, 5, 4, 3, 2, 1]
-
-# Tuple slicing
-tuple1 = (10, 20, 30, 40, 50, 60)
-print(tuple1[1:4])    # (20, 30, 40)
-print(tuple1[::2])    # (10, 30, 50)
-print(tuple1[::-1])   # (60, 50, 40, 30, 20, 10)
 
 
  
