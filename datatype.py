@@ -134,3 +134,5 @@
 # s1='python'
 # print(len(s1))
 # output-6
+
+# diffe between function and method
