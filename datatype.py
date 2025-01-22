@@ -94,4 +94,43 @@
 # output-<class 'complex'>
 # -------------------------------------------------------------------------------------------------
 
-# 
+# 2.String:
+
+# s1='Python'
+# print(type(s1))
+# output-<class 'str'>
+
+# in-build function:
+
+# print()
+# s1='Python'
+# print(type(s1))
+# output-<class 'str'>
+
+# input()
+# x=input("enter your name :")
+# print(x)
+# print(type(x))
+# output-anam
+# id()
+
+# x=input("enter your name :")
+# print(x)
+# print(id(x))
+# output-anam
+# 3019095911776
+
+# max()
+# s1='python'
+# print(max(s1))
+# output-y
+
+# min()
+# s1='python'
+# print(min(s1))
+# output-h
+
+# len()
+# s1='python'
+# print(len(s1))
+# output-6
