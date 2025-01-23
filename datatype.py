@@ -137,3 +137,53 @@
 
 # diffe between function and method
 
+# Method:
+# lower()
+# upper()
+# title()
+# capitaliza()
+# find()
+# index()
+# join()
+# spilt()
+
+str1="I love python"                
+print(str1.lower())
+print(str1.upper())
+print(str1.title())
+print(str1.capitalize())
+print(str1.swapcase())
+# output= i love python
+# i love python
+# I LOVE PYTHON
+# I Love Python
+# I love python
+# i LOVE PYTHON
+
+# print(str1.index('z')) -----------error
+print(str1.find('P'))
+# output=-1
+print(str1.find('z'))
+# output=-1= 
+# the diff. between index and find is index is geneate ERROR and index provide -1
+
+print(str1.split())
+# ['I', 'love', 'python']---return in list form---by default spilt through space
+
+print(str1.split('o'))
+# output=['I l', 've pyth', 'n']
+
+print(str1.split('o',1))
+# output=['I l', 've python']
+# -------------------------------------------------------------------------------------------------
+
+# Join
+li=['Anam','Sayyed','Bhopal']
+print('*'.join(li).split('p'))
+# output=['Anam*Sayyed*Bho', 'al']
+x=','.join(li)
+# output=Anam,Sayyed,Bhopal--------single obj. output
+# print(type(x))
+# output=<class 'str'>
+
+
