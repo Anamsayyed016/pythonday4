@@ -78,6 +78,11 @@
 # # <class 'bool'>
 
 # list-collection of object
+# type-homogeneos-same data type, hetrogeneous--diff data type
+# ordered collection
+# indexing supported
+# slicing Supported
+# mutable in nature
 # repsented in [] with comma(,) separated objects
 # mylist=[10,20,30,40]
 
@@ -85,21 +90,34 @@
 # print(mylist)
 # print(type(mylist))
 
+# my_list=[10,10.5,'Anam']
+# print(my_list)
+# print(type(my_list))
+# output=[10, 10.5, 'Anam']
+# <class 'list'>
+# x=[10]
+# y=[10]
+# print(id(x),id(y))
+# output=2261245521984 2261245416640
 # output-[10, 20, 30, 40, 15.4, 10.2, 12, 'anam', [1, 2, 3]]
 # <class 'list'>
 
 # mylist=[10,20,30,40,15.4,10.2,10+2,'anam',[1,2,3]]
 # print(list)
 # print(type(mylist))
-
-# tupe-collection of objects
+# ..........................................................................
+# tuple-collection of objects
+# ordered collection
+# indexing supported
+# slicing Supported
+# mutable in nature
 # represented in ()  with comma seprated objects
 # mytuple=(10,20,30,40,15.4,10.2,10+2,'anam',[1,2,3])
 # print(mytuple)
 # print(type(mytuple))
 # output-(10, 20, 30, 40, 15.4, 10.2, 12, 'anam', [1, 2, 3])
 # <class 'tuple'>
-
+# ..........................................................................
 # dictionary-collection of 'Key' 'Value' pairs.
 # key and value called object
 # repredented in {}with comma seprated objects
@@ -109,7 +127,7 @@
 # print(type(mydict))
 # output-{'anam': 'sayyed', 'age': 37, 'city': 'Bhopal'}
 # <class 'dict'>
-
+# .............................................................................
 # set-collection of unique objects
 # represented in {} with comma sepreted objects
 
@@ -119,7 +137,7 @@
 
 # output-{'neeraj', 20, 40, 10, 30}
 # <class 'set'>
-
+# ...............................................................................
 # frozen set
 # myset= frozenset({10,20,30,40,'neeraj',20,30})
 # print(myset)

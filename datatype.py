@@ -2,7 +2,7 @@
 # numeric- integer, float, complex
 
 # string              
-# list
+# list-----Collection of obj.
 # tuple
 # dict--- maped data type
 # set
@@ -147,12 +147,12 @@
 # join()
 # spilt()
 
-str1="I love python"                
-print(str1.lower())
-print(str1.upper())
-print(str1.title())
-print(str1.capitalize())
-print(str1.swapcase())
+# str1="I love python"                
+# print(str1.lower())
+# print(str1.upper())
+# print(str1.title())
+# print(str1.capitalize())
+# print(str1.swapcase())
 # output= i love python
 # i love python
 # I LOVE PYTHON
@@ -161,36 +161,94 @@ print(str1.swapcase())
 # i LOVE PYTHON
 
 # print(str1.index('z')) -----------error
-print(str1.find('P'))
+# print(str1.find('P'))
 # output=-1
-print(str1.find('z'))
+# print(str1.find('z'))
 # output=-1= 
 # the diff. between index and find is index is geneate ERROR and index provide -1
 
-print(str1.split())
+# print(str1.split())
 # ['I', 'love', 'python']---return in list form---by default spilt through space
 
-print(str1.split('o'))
+# print(str1.split('o'))
 # output=['I l', 've pyth', 'n']
 
-print(str1.split('o',1))
+# print(str1.split('o',1))
 # output=['I l', 've python']
 # -------------------------------------------------------------------------------------------------
 
 # Join
-li=['Anam','Sayyed','Bhopal']
-print('*'.join(li).split('p'))
-# output=['Anam*Sayyed*Bho', 'al']
-x=','.join(li)
+# li=['Anam','Sayyed','Bhopal']
+# print('*'.join(li).split('p'))
+# # output=['Anam*Sayyed*Bho', 'al']
+# x=','.join(li)
 # output=Anam,Sayyed,Bhopal--------single obj. output
 # print(type(x))
 # output=<class 'str'>
 # --------------------------------------------------------------------------------------------------
 
 # Count
-print(str1.count('o'))
+# print(str1.count('o'))
 # output=2
 # --------------------------------------------------------------------------
 
 # List
+# inbulit function for list
+# l1=[10,10.4,'Anam',5,7,65]
+# l2=[40,52,5,36,3,41]
+# print(max(l2))
+# print(min(l2))
+# print(sum(l2))
+# print(len(l1))
 
+# print(id(l1),id(l2))
+# print(type(l1),id(l2))
+# ------------------------------------------------------------------------------
+
+# Method
+
+# append() - add one obj. at last position
+x=(10,20,30,40)
+l1=[10,10.4,'Anam',5,7,65]
+l1.append(x)
+print(l1)
+# output=[10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40)]
+
+x=10
+l1.append(x)
+print(l1)
+# output=[10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10]
+
+x='Sayyed'
+l1.append(x)
+print(l1)
+# [10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10, 'Sayyed']
+
+x=[10,52,20]
+l1.append(x)
+print(l1)
+# [10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10, 'Sayyed', [10, 52, 20]]
+
+# sort() - arrenge assending form
+
+# extend()- add multiple obj. in last position.
+x=[1,2,3]
+l1.extend(x)
+print(l1)
+# output= # [10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10, 'Sayyed', [10, 52, 20], 1, 2, 3]
+
+# insert()- add 1-obj. from required position
+
+l1.insert(0,'bhopal')
+# l1.insert(x)
+print(l1)
+# output=['bhopal', 10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10, 'Sayyed', [10, 52, 20], 1, 2, 3]
+
+# pop()- remove one-obj. from last postiton.
+# remove()- remove one-object from required pos.
+# reverse()-to arrenge in reverse order.
+# clear()- remove all obj. from list.
+# copy()- create another obj. with samne content.
+# count()- frequency
+# index()-obj. position
+# del()- delete collection
