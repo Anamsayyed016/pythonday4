@@ -208,47 +208,82 @@
 # Method
 
 # append() - add one obj. at last position
-x=(10,20,30,40)
-l1=[10,10.4,'Anam',5,7,65]
-l1.append(x)
-print(l1)
+# x=(10,20,30,40)
+# l1=[10,10.4,'Anam',5,7,65]
+# l1.append(x)
+# print(l1)
 # output=[10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40)]
 
-x=10
-l1.append(x)
-print(l1)
+# x=10
+# l1.append(x)
+# print(l1)
 # output=[10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10]
 
-x='Sayyed'
-l1.append(x)
-print(l1)
+# x='Sayyed'
+# l1.append(x)
+# print(l1)
 # [10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10, 'Sayyed']
 
-x=[10,52,20]
-l1.append(x)
-print(l1)
+# x=[10,52,20]
+# l1.append(x)
+# print(l1)
 # [10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10, 'Sayyed', [10, 52, 20]]
 
 # sort() - arrenge assending form
 
 # extend()- add multiple obj. in last position.
-x=[1,2,3]
-l1.extend(x)
-print(l1)
+# x=[1,2,3]
+# l1.extend(x)
+# print(l1)
 # output= # [10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10, 'Sayyed', [10, 52, 20], 1, 2, 3]
 
 # insert()- add 1-obj. from required position
 
-l1.insert(0,'bhopal')
+# l1.insert(0,'bhopal')
 # l1.insert(x)
-print(l1)
+# print(l1)
 # output=['bhopal', 10, 10.4, 'Anam', 5, 7, 65, (10, 20, 30, 40), 10, 'Sayyed', [10, 52, 20], 1, 2, 3]
 
+# sort()-
+# l1=[10,5,7,65]
+# l1.sort()
+# print(l1)
+# output=[5, 7, 10, 10.4, 65]
+
 # pop()- remove one-obj. from last postiton.
+l1=[10,20,8,20.5]
+l1.pop()
+print(l1)
+# output-[10, 20, 8]
+
 # remove()- remove one-object from required pos.
+l1.remove(20)
+print(l1)
+# output=[10, 8]
 # reverse()-to arrenge in reverse order.
+# l1.reverse()
+# print(l1)
 # clear()- remove all obj. from list.
+l1.clear
+print(l1)
 # copy()- create another obj. with samne content.
+# l1=[10,20,8,20.5]
+l2=[10,20,8,20.5]
+# l2=l3.copy
+# print(l3,l2)
+# print(id(l3),id(l2))
 # count()- frequency
-# index()-obj. position
+# l2=[50,7,52,41,50]
+# print(l2.count())
+# index()-obj. 
+# print(l2.index(7))
+print(l2.index(8))
 # del()- delete collection
+# del l1
+# print(l1)
+
+
+
+
+
+
