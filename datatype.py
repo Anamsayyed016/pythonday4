@@ -268,10 +268,10 @@ l1.clear
 print(l1)
 # copy()- create another obj. with samne content.
 # l1=[10,20,8,20.5]
-l2=[10,20,8,20.5]
-# l2=l3.copy
-# print(l3,l2)
-# print(id(l3),id(l2))
+l1=[10,20,8,20.5]
+l2=l1.copy()
+print(l1,l2)
+print(id(l1),id(l2))
 # count()- frequency
 # l2=[50,7,52,41,50]
 # print(l2.count())
